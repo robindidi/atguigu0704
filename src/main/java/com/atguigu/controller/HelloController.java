@@ -24,5 +24,10 @@ public class HelloController {
         return helloService.sayHello(name);
     }
 
+
+    public String hello(){
+
+        return "hot第一次修改";
+    }
 }
 
