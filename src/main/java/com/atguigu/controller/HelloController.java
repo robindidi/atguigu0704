@@ -26,7 +26,7 @@ public class HelloController {
 
 
     public String hello(){
-
+        System.out.println("master在后头之后再次修复");
         return "hot第一次修改";
     }
 }
