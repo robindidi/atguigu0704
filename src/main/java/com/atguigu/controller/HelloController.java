@@ -26,6 +26,9 @@ public class HelloController {
 
 
     public String hello(){
+        System.out.println("hot进行热修复");
+        System.out.println("hot第二次进行热修复");
+
 
         return "hot第一次修改";
     }
